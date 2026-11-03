@@ -47,5 +47,5 @@ The java command means as follows
 - Xms2G: Use at minimum 2 gigabytes of ram
 - Xmx4G: if more is needed use at most 4 gigs of ram in total
 - jar: tell it we're loading a .jar file
-- nogui: do not host a client, only host the server
+- nogui: do not host a client for the server too, only host the server
   
