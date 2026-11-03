@@ -2,7 +2,7 @@
 
 # Setup
 
-## Java setup!
+## Java setup, Vanilla
 
 first check if you have java installed with
 
@@ -48,4 +48,37 @@ The java command means as follows
 - Xmx4G: if more is needed use at most 4 gigs of ram in total
 - jar: tell it we're loading a .jar file
 - nogui: do not host a client for the server too, only host the server
-  
+
+## Java setup, Modded
+
+Follow the same steps for vanilla up until the server.jar part, instead
+decide on a modloader, for this case we will use Forge.
+
+Go to forge's website and your desired version and install the "installer"
+
+<img width="1381" height="686" alt="image" src="https://github.com/user-attachments/assets/5a38a5ae-8a84-4326-b684-609fef63a7c9" />
+
+After you've installed it move the installer into your MinecraftServer folder, like this:
+```
+mv ~/Downloads/forge-bla-bla ~/MinecraftServer
+```
+
+after that run the installer like this
+
+```
+cd ~/MinecraftServer
+java -jar forge-bla-bla --installServer
+```
+
+This will setup your server up until the eula, go inside the eula.txt and change it from false to true.
+You can use nano to do this easily:
+```
+nano ~/MinecraftServer/eula.txt
+```
+
+if you don't see eula.txt yet, then use the run.sh command first like this
+```
+bash ~/MinecraftServer/run.sh
+```
+then run this command again after you changed the eula to true
+and boom your setup is completed!
