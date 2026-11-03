@@ -18,3 +18,9 @@ After you've installed java, create a directory in your home folder like this:
 ```
 mkdir ~/MinecraftServer
 ```
+
+Now we will download the .jar file to run the server.
+
+you can find the link to the download here: https://www.minecraft.net/en-us/download/server
+
+Now to run the actual server
