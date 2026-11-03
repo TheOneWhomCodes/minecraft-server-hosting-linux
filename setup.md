@@ -82,3 +82,14 @@ bash ~/MinecraftServer/run.sh
 ```
 then run this command again after you changed the eula to true
 and boom your setup is completed!
+
+## Adding mods!
+
+Go to your prismlauncher or curseforge or modrinth or whatever and download a mod!
+
+Extract the .jar files and then transfer them to your MinecraftServer's mods folder, like this:
+```
+unzip ~/Downloads/modpack.zip  ~/MinecraftServer
+```
+**NOTE: This is just a guess on where your zip file is saved on your system, it could very bell be saved somewhere else!**
+**NOTE: Make sure to ONLY include .jar files in your mods folder!**
